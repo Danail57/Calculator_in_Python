@@ -1,4 +1,5 @@
 Craete a simple python calculator.
+
 try:
     operator = input("Enter an operator (+ - / * ): ")
     num1 = float(input("Enter the first number: "))
@@ -18,4 +19,5 @@ try:
     else:
         print(f'{operator} is not a valid operator.')
 except ValueError:
+    
     print("Invalid input. Please enter a valid number.")
