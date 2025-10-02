@@ -1,26 +1,3 @@
-"""
-This program calculates the final balance using **compound interest**.
-
-The user is asked to enter:
-- the principal amount (initial money),
-- the annual interest rate (in percent),
-- and the time period in years.
-
-The program validates each input to ensure it's not negative or zero 
-(where not allowed). Then, it uses the compound interest formula:
-
-    A = P * (1 + r/100) ^ t
-
-Where:
-- A is the final amount,
-- P is the principal,
-- r is the interest rate,
-- t is the time in years.
-
-The result is displayed with two decimal places.
-
-
-
 principle = 0
 rate = 0
 time = 0
@@ -46,3 +23,4 @@ while True:
 
 total = principle * pow((1 + rate / 100), time)
 print(f"Balance after {time} year/s is ${total:.2f}: ")
+
