@@ -1,4 +1,4 @@
-Another version of the Python calculator.
+# Another version of the Python calculator.
 
 N1 = int(input())
 N2 = int(input())
