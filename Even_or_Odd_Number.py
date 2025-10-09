@@ -1,4 +1,4 @@
-Finding the number whether is even or odd.
+# Finding the number whether is even or odd.
 
 number = int(input("Enter your number: "))
 if number % 2 == 0:
